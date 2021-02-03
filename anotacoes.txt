@@ -1,0 +1,50 @@
+#Java
+	-Criado em 1995
+	-Ele é compilado em bytecode e roda em uma máquina virtual
+
+#Compilador
+	-Javac
+	-Pega o código em outro código(código objeto)
+	-Traduz linguagem de alto nível para linguagem de máquina
+
+#Bytecode
+	-É a compilação dos programas Java
+
+#JVM
+	-máquina virtual que executa o bytecode
+	-maior vantagem é que qulauqer máquina e sistema operacional
+que tenha a JVM pode rodar os seus programas
+
+#JRE
+	-Java run time enviroment
+	-Resposável pela JVM e bibliotecas
+	-Responsável pela execução do Java
+
+#JDK
+	-É o kit de desenvolvimeto
+	-Compilador, bibliotecas e JRE, é o mais completo
+
+#Java SE
+	-Standard edition
+	-é distribuição mínima d Java, implementação opensource
+
+#Java EE
+	-é Java SE mas masi elaborado
+	-é mais voltado por sistema corporativos
+	-Acesso aos bancos de daddos, serviços web
+
+#Jakartta EE
+	-Oracle não dava bola para o JAVA EE, aí doo para a Eclipse
+Fundation, mas tem que mudar o nome para Jakarta EE
+
+#Wrappers
+	-são os primitivos mas em forma de classes (Double Float, Character...)
+	-ao contrario dos primitivos podem ser nulos, são objetos
+	-Possuem métodos utilitários (Double.Parse()...)
+	-Não precisam de "new Double" para declaração (Auto-boxing)
+	-podem atribuir valor a um tipo primitivo (unboxing)
+
+#Enums
+	-São dicionários imutáveis
+	-Não podem ser criadas novas instancias
+	-Por convenção são sempre nomes maiúsculos, afinal são static e final
