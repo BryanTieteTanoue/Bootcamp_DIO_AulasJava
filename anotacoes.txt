@@ -48,3 +48,9 @@ Fundation, mas tem que mudar o nome para Jakarta EE
 	-São dicionários imutáveis
 	-Não podem ser criadas novas instancias
 	-Por convenção são sempre nomes maiúsculos, afinal são static e final
+
+#POO em Java
+	-Não existe desconstrutor, o garbage colctor é responsável por deletar
+objetos que não são mais usados
+
+
