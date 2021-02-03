@@ -39,6 +39,8 @@ public class Carro {
         return pessoasDentro;
     }
 
+
+
     public void adcionarPessoas(){
         if ( !(pessoasDentro == limitePessoas))
             pessoasDentro++;

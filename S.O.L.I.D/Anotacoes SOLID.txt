@@ -1,0 +1,36 @@
+#S.O.L.I.D
+	-é um acrônimo, são princípios de POO
+	-fazer códigos mais limpos, refatoração e maior reaproveitamento
+de código
+
+#S: Single Responsibility Principle
+	-Uma classse deve ter um, e somente um, motivo para mudar 
+(uma responsabilidade)
+	-Facilita os testes unitários
+	-Não queremos "God-class"
+
+#O: Open-Closed Principle
+	-Deve poder extender um comportamento de classe sem modificá-la
+	-São abertos para extensão (implementar outras classes, mas 
+fechados para mudanças (não ficar adcionando mais código)
+	-Parâmetros "genérico" podem ajudar
+	
+#L: Liskov Substituition Principle
+	-Classes derivadas devem ser substituíveis pelas classes bases
+	-"Se para um objeto O1 do TIPO S há um objeto O2 do tipo T de
+forma que, para todos os programa P, o comportamento de P é inalterado
+ quando O1 é substiuído por O2, então S é um subtipo de T"
+	-nem toda a herança é boa para ser implementada, as  vezes a filha pode
+alterar as características de classe mãe
+	
+#I: Interface Segregation Principle
+	-Faça interfaces refinadas que são específicas do cliente
+	-uma interface não deve ser forçada a ter métodos que não são/ usadas por
+ela. É melhor ter específicas do que uma genérica.
+	-Fazer interfaces que implementam outras interfaces pode ajudar
+
+#D: Dependency inversion principle
+	-Dependa de abstrações e não implmentações
+	-Um módulo de alto nível não deve depender de módulos de baixo nível, 
+ambos devem depedner da abstração
+	-Melhor usar interfaces
