@@ -1,0 +1,11 @@
+#Date
+	-Está desde a versão JDK 1.0, ASSIM PODEMOS esperar que ceratas coisas
+não sejam muito agradáveis aos dias de hoje
+	-Focar no "Date()" E "Date(long date)"
+	-Date() pega a hora de execução
+	-Date(long date) esse espera que você isndique a data, usando milissegundos
+de uma data. Começa em 1 de janeiro de 1970 00:00:00 (Epoch). A maioria das outras 
+linguagens também utiliza o Epoch.
+
+#Calendar
+	-Foi criada já na versão JDK 1.1
